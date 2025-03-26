@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
-import { GraduationCap, Briefcase, User, Trophy, Heart, Star, Target, Lightbulb } from "lucide-react"
+import { GraduationCap, Briefcase, User, Heart, Star, Target, Lightbulb } from "lucide-react"
 
 function About() {
   useEffect(() => {

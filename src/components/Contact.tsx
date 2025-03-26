@@ -1,15 +1,13 @@
 "use client"
 
-import type React from "react"
-import { useEffect, useState } from "react"
-import { GitlabIcon as GitHub, Linkedin, Mail, Phone, MapPin, Send, Loader2, MessageSquare } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+
+import { useEffect, } from "react"
+import { GitlabIcon as GitHub, Linkedin, Mail, MapPin, MessageSquare } from "lucide-react"
+
+
 
 function Contact() {
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
+ 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -91,7 +89,7 @@ function Contact() {
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-800 text-white rounded-full hover:bg-gray-900 transition-all duration-300 hover:shadow-lg transform hover:scale-110"
                   >
-                    <GitHub size={20} />
+                     <GitHub size={20} />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/manish-joshi-8268691b1"

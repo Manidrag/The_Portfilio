@@ -5,7 +5,7 @@ import { Github, ExternalLink, Code, ChevronLeft, ChevronRight } from "lucide-re
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import Hmembrain from "../assets/Hmembrain.png"
+
 
 // Project type definition
 interface Project {
