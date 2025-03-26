@@ -314,7 +314,7 @@ function Projects() {
         {displayedProjects.length === 0 && (
           <div className="text-center py-12 bg-white rounded-xl shadow-md">
             <h3 className="text-xl font-medium text-gray-700 mb-2">No projects found</h3>
-            <p className="text-gray-500">Try changing your filter criteria</p>
+            <p className="text-gray-500">Try changing your filter criteria as you prefered</p>
           </div>
         )}
 
@@ -322,9 +322,9 @@ function Projects() {
         <div className="mt-16 text-center animate-on-scroll opacity-0 transition-all duration-1000 delay-700">
           <p className="text-gray-600 mb-4">Interested in seeing more of my work?</p>
           <Button asChild variant="outline" className="flex items-center gap-2 mx-auto">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Manidrag" target="_blank" rel="noopener noreferrer">
               <Code size={18} />
-              View All Projects
+              View Git For All Projects
             </a>
           </Button>
         </div>
